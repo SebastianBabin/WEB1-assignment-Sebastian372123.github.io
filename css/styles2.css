@@ -1,0 +1,553 @@
+body{
+    background-color: #F5EBDD;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*------------------NAVBAR-------------------*/
+
+
+.NavBar{
+    grid-column: 1/4;
+}
+
+.NavBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.NavBar ul li{
+    float: left;
+}
+
+.NavBar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavBar ul li a:hover {
+  background-color: #111111;
+}
+
+
+
+/*----------------------------CV PAGE---------------------------------------------------*/
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*----------------------------CV Photo----------------------------------*/
+
+.cv-photo{
+    grid-column: 1/2;
+    background-color: #323b4c;
+}
+
+.cv-photo img{
+    width: 85%;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+/*----------------------------CV Name----------------------------------*/
+
+
+.cv-name{
+    grid-column: 2/4;
+    padding: 5px;
+    color: #323b4c;
+    text-align: center;
+    font-size: 4vw;
+}
+
+/*----------------------------CV Contacts----------------------------------*/
+
+
+.cv-contact{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+.cv-contact ul{
+    padding-left: 0;
+}
+
+
+/*----------------------------CV ABOUT ME----------------------------------*/
+
+
+.cv-about-me{
+    grid-column: 2/4;
+    font-size: 3vw;
+    color: #323b4c;
+}
+.cv-about-me h3{
+    padding: 10px;
+    margin: 0;
+}
+.cv-about-me p{
+    font-size: 2.5vw;
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV EDUCATION----------------------------------*/
+
+
+.cv-edu{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+.cv-edu ul{
+    padding-left: 0;
+}
+
+
+
+/*----------------------------CV EXPIRIENCE----------------------------------*/
+
+
+.cv-expirience{
+    grid-column: 2/4;
+    color: #323b4c;
+}
+
+.cv-expirience h3{
+    padding: 10px;
+    margin: 0;
+    font-size: 3.5vw;
+}
+
+.cv-expirience p{
+    font-size: 2.5vw;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.onerow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 3vw;
+}
+
+/*----------------------------CV TECH SKILLS----------------------------------*/
+
+
+.cv-tech-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+
+.cv-tech-skill ul{
+    padding-left: 0;
+}
+/*----------------------------CV VOLUNTEER----------------------------------*/
+
+
+.cv-volunteer{
+    grid-column: 2/4;
+    font-size: 3vw;
+    color: #323b4c;
+}
+
+.cv-volunteer h3{
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV Soft SKILLS----------------------------------*/
+
+
+.cv-soft-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 15px;
+    
+}
+
+.cv-soft-skill ul{
+    padding-left: 0;
+}
+
+/*----------------------------CV AWARDS----------------------------------*/
+
+
+.cv-awards{
+    grid-column: 2/4;
+    font-size: 3vw;
+    color: #323b4c;
+}
+
+.cv-awards h3{
+    padding: 5px;
+    margin: 0;
+}
+
+
+
+
+
+@media screen and (max-width: 376px){
+/*----------------------------CV PAGE---------------------------------------------------*/
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+/*----------------------------CV Photo----------------------------------*/
+
+.cv-photo{
+    grid-column: 1/2;
+    background-color: #323b4c;
+}
+
+.cv-photo img{
+    width: 85%;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+/*----------------------------CV Name----------------------------------*/
+
+
+.cv-name{
+    grid-column: 2/4;
+    padding: 5px;
+    color: #323b4c;
+    text-align: center;
+}
+
+/*----------------------------CV Contacts----------------------------------*/
+
+
+.cv-contact{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 15px;
+}
+.cv-contact ul{
+    padding-left: 0;
+}
+
+
+/*----------------------------CV ABOUT ME----------------------------------*/
+
+
+.cv-about-me{
+    grid-column: 2/4;
+}
+.cv-about-me h3{
+    padding: 5px;
+    margin: 0;
+}
+.cv-about-me p{
+    font-size: 2.5vw;
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV EDUCATION----------------------------------*/
+
+
+.cv-edu{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 15px;
+}
+.cv-edu ul{
+    padding-left: 0;
+}
+
+
+
+/*----------------------------CV EXPIRIENCE----------------------------------*/
+
+
+.cv-expirience{
+    grid-column: 2/4;
+    
+}
+
+.cv-expirience h3{
+    padding: 5px;
+    margin: 0;
+}
+
+.cv-expirience p{
+    font-size: 2.5vw;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.onerow{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/*----------------------------CV TECH SKILLS----------------------------------*/
+
+
+.cv-tech-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 15px;
+}
+
+.cv-tech-skill ul{
+    padding-left: 0;
+}
+/*----------------------------CV VOLUNTEER----------------------------------*/
+
+
+.cv-volunteer{
+    grid-column: 2/4;
+    font-size: 3vw;
+}
+
+.cv-volunteer h3{
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV Soft SKILLS----------------------------------*/
+
+
+.cv-soft-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 15px;
+    
+}
+
+.cv-soft-skill ul{
+    padding-left: 0;
+}
+
+/*----------------------------CV AWARDS----------------------------------*/
+
+
+.cv-awards{
+    grid-column: 2/4;
+    font-size: 3vw;
+}
+
+.cv-awards h3{
+    padding: 5px;
+    margin: 0;
+}
+
+
+}
+
+
+
+
+
+/*--------------------------------------768px screen----------------------*/
+
+
+
+
+
+@media screen and (max-width: 768px){
+/*----------------------------CV PAGE---------------------------------------------------*/
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+/*----------------------------CV Photo----------------------------------*/
+
+.cv-photo{
+    grid-column: 1/2;
+    background-color: #323b4c;
+}
+
+.cv-photo img{
+    width: 85%;
+    border-radius: 150px;
+    padding: 5px;
+}
+
+/*----------------------------CV Name----------------------------------*/
+
+
+.cv-name{
+    grid-column: 2/4;
+    padding: 5px;
+    color: #323b4c;
+    text-align: center;
+    font-size: 4vw;
+}
+
+/*----------------------------CV Contacts----------------------------------*/
+
+
+.cv-contact{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+.cv-contact ul{
+    padding-left: 0;
+}
+
+
+/*----------------------------CV ABOUT ME----------------------------------*/
+
+
+.cv-about-me{
+    grid-column: 2/4;
+    font-size: 3vw;
+}
+.cv-about-me h3{
+    padding: 10px;
+    margin: 0;
+}
+.cv-about-me p{
+    font-size: 2.5vw;
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV EDUCATION----------------------------------*/
+
+
+.cv-edu{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+.cv-edu ul{
+    padding-left: 0;
+}
+
+
+
+/*----------------------------CV EXPIRIENCE----------------------------------*/
+
+
+.cv-expirience{
+    grid-column: 2/4;
+    
+}
+
+.cv-expirience h3{
+    padding: 10px;
+    margin: 0;
+    font-size: 3.5vw;
+}
+
+.cv-expirience p{
+    font-size: 2.5vw;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.onerow{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 3vw;
+}
+
+/*----------------------------CV TECH SKILLS----------------------------------*/
+
+
+.cv-tech-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+}
+
+.cv-tech-skill ul{
+    padding-left: 0;
+}
+/*----------------------------CV VOLUNTEER----------------------------------*/
+
+
+.cv-volunteer{
+    grid-column: 2/4;
+    font-size: 3vw;
+}
+
+.cv-volunteer h3{
+    padding: 5px;
+    margin: 0;
+}
+
+/*----------------------------CV Soft SKILLS----------------------------------*/
+
+
+.cv-soft-skill{
+    grid-column: 1/2;
+    background-color: #323b4c;
+    color: white;
+    font-size: 3vw;
+    padding-left: 30px;
+    
+}
+
+.cv-soft-skill ul{
+    padding-left: 0;
+}
+
+/*----------------------------CV AWARDS----------------------------------*/
+
+
+.cv-awards{
+    grid-column: 2/4;
+    font-size: 3vw;
+}
+
+.cv-awards h3{
+    padding: 5px;
+    margin: 0;
+}
+
+
+}
+

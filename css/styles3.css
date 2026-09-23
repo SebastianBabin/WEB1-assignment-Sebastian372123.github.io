@@ -1,0 +1,71 @@
+body{
+    background-color: #F5EBDD;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*------------------NAVBAR-------------------*/
+
+
+.NavBar{
+    grid-column: 1/4;
+}
+
+.NavBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+}
+
+.NavBar ul li{
+    float: left;
+}
+
+.NavBar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.NavBar ul li a:hover {
+  background-color: #111111;
+}
+
+
+/*-------------------------Portofolio PAGE----------------*/
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 50%;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+
+
+@media screen and (max-width: 376px){
+
+    .container3{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
