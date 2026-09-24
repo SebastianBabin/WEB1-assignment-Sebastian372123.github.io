@@ -179,7 +179,7 @@ body{
     }
 
     .section1-textdescription{
-        margin-top: none;
+        margin-top: 0;
     }
     .section2{
         grid-column: 1/4;
