@@ -51,10 +51,13 @@ body{
 .section{
     text-align: center;
     padding: 10px;
-    background-color: #f2e0c6;
+    background-color: #c3a48c;
     margin: 15px;
-    border: 2px solid rgb(177, 103, 0);
     border-radius: 10px;
+}
+
+.section h1, h2{
+    color: #f8d8a7;
 }
 
 img{
